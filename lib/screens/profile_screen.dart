@@ -22,11 +22,7 @@ class ProfilersTab extends StatelessWidget {
                 return Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text(
-                      "${!model.isLoggedIn() ? "" : model.userData["a"]}",
-                      style: TextStyle(
-                          fontSize: 18.0, fontWeight: FontWeight.bold),
-                    ),
+                    Container(),
                   ],
                 );
               },
